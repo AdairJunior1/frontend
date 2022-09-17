@@ -21,7 +21,7 @@
 
 ## Commits
 Informação de alteraçao
-- apos testado todo seu codigo
+- apos testado todo seu codigo,
 
 ## Gitflow
 Fluxo do Git

@@ -1,0 +1,82 @@
+
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+footer {
+    color: blue;
+    font-size: 1.2rem;
+}
+
+div {
+    margin: 40px auto;
+}
+
+#grafico-01 {
+    background-color: brown;
+
+    width: 400px;
+
+    height: 400px; 
+    overflow: hidden; /* serve para esconder o conteudo que ultrapasse o background
+    sroll area de rolagem*/
+
+    border-radius: 50%;
+    
+}
+
+#grafico-01 img {
+    width: 100%;
+   
+}
+
+
+#grafico-02 {
+    background: transparent;
+    
+
+    border-style: solid;
+    border-width: 60px 0 60px 120px;
+    border-color: transparent transparent transparent blue;
+    width: 200px;
+     
+} 
+#imagem-vetorial {
+    width: 200px;
+}
+
+#script {
+    border-style: solid;
+    border-width: 60px 0 60px 120px;
+    border-color: transparent transparent transparent blue;
+    width: 200px;
+
+}
+ /*filtros*/
+ #grafico-01 {
+    filter: drop-shadow(9px 8px 10px #333);
+    max-width: 100%;
+    height: auto;
+ }
+
+
+
+ .filtros {
+    filter: grayscale(75%); /*escala de cinza*/
+    filter: blur(5px); /*DESFOQUE*/
+    filter: brightness(50%);/*brilho*/    
+    filter: invert(100%);/*inversão de cores*/
+    filter: opacity(50%);
+}
+
+ .filtros:hover {
+    filter: grayscale(0%);
+     
+ }
