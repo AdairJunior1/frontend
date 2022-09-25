@@ -31,3 +31,4 @@ ta sendo o pior desafio até agora
 git branch -M main
 git remote add origin https://github.com/AdairJunior1/2.git
 git push -u origin main
+git push enviar alteraçoes
