@@ -45,4 +45,6 @@ São ramificações/ Versões paralelas
 - DOD Definition of Done: criterios de aceite
 - Versionamento 0.0.11
 
-- Criar uma Branch nova "git checkout -b dev"
+- Criar uma Branch nova "git checkout -b dev
+
+- git fetch --all (serve para checar alterações no codigo Principal)
